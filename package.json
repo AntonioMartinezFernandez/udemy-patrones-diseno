@@ -4,8 +4,14 @@
   "description": "Code of Udemy course \"Patrones de diseño en Javascript y Typescript\"\r https://www.udemy.com/course/patrones-de-diseno-en-javascript-y-typescript/",
   "main": "intro.ts",
   "scripts": {
-    "dev": "nodemon",
-    "start": "ts-node src/intro.ts"
+    "intro": "nodemon src/intro.ts",
+    "singleton": "nodemon src/singleton.ts",
+    "strategy": "nodemon src/strategy.ts",
+    "observer": "nodemon src/observer.ts",
+    "decorator": "nodemon src/decorator.ts",
+    "builder": "nodemon src/builder.ts",
+    "state": "nodemon src/state.ts",
+    "bridge": "nodemon src/bridge.ts"
   },
   "repository": {
     "type": "git",
