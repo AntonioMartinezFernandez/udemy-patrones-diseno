@@ -1,0 +1,27 @@
+{
+  "name": "udemy-patrones-diseno",
+  "version": "1.0.0",
+  "description": "Code of Udemy course \"Patrones de diseño en Javascript y Typescript\"\r https://www.udemy.com/course/patrones-de-diseno-en-javascript-y-typescript/",
+  "main": "intro.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonioMartinezFernandez/udemy-patrones-diseno.git"
+  },
+  "author": "Antonio Martínez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntonioMartinezFernandez/udemy-patrones-diseno/issues"
+  },
+  "homepage": "https://github.com/AntonioMartinezFernandez/udemy-patrones-diseno#readme",
+  "dependencies": {
+    "ts-node": "^10.7.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.4",
+    "@commitlint/config-conventional": "^16.2.4",
+    "husky": "^8.0.1"
+  }
+}
