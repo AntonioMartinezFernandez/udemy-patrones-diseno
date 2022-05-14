@@ -1,4 +1,4 @@
-console.log('Hi from TS!');
+console.log('Sección 1 - Introducción');
 
 //
 // FUNCIÓN DE PRIMER ORDEN (acepta valores como parámetros)
