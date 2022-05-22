@@ -1,4 +1,4 @@
-console.log('Sección 2 - Singleton');
+console.log('Section 2 - Singleton');
 
 //
 //  CREAR UNA CLASE CON PATRÓN SINGLETON
