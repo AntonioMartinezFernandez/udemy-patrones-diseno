@@ -69,7 +69,7 @@ const regularSale = new RegularSaleStrategy(21);
 // Instance of Strategy 2
 const discountSale = new DiscountSaleStrategy(21, 10);
 
-// Dependency Injection of strategy 1
+// Inject strategy 1 to the context
 const saleAmount = new SalesContext(regularSale);
 
 // Result 1

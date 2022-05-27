@@ -77,7 +77,7 @@ class ConsoleCounterObserver<T> implements IObserver<T> {
   }
 }
 
-// Create instances of subject and observer
+// Create instances of subject and observers
 const subject = new ElementSubject<string | number>();
 
 const observer = new ConsoleObserver<string | number>();
@@ -91,7 +91,7 @@ const observerCounter = new ConsoleCounterObserver<string | number>(
 subject.subscribe(observer);
 subject.subscribe(observerCounter);
 
-// When we change the state of the subject, the observers react to this changes
+// When we change the state of the subject, the observers reacts to this changes
 subject.add('Element 1');
 subject.add('Element 2');
 subject.add('Element 3');
